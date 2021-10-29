@@ -43,7 +43,7 @@ test_set = test_datagen.flow_from_directory('data/test',
 
 classifier.fit_generator(
         training_set,
-        epochs=10,
+        epochs=20,
         validation_data=test_set)
 
 #Saving
